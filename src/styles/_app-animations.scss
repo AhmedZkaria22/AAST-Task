@@ -1,0 +1,84 @@
+@keyframes headerAnmy1{
+    0%{ opacity: 0;  margin-left: -20vw; }
+    100%{ opacity: 1;  margin-left: 0vw; }
+}
+
+@keyframes headerAnmy2{
+    0%{ opacity: 0;  margin-top: -1.75rem; }
+    50%{ opacity: 0.3;  margin-top: -0.75rem; }
+    100%{ opacity: 1;  margin-top: 0rem; }
+}
+
+@keyframes navAnmy{
+    0%{ opacity: 0;  top: 120%; }
+    100%{ opacity: 1;  top: 100%; }
+}
+
+@keyframes navAnmy2{    
+    0%{ opacity: 1;  top: 100%; }
+    100%{ opacity: 0;  top: 120%; }
+}
+
+@keyframes campusesAnmy1{
+    0%{ opacity: 0;  top: -50%;          left: calc( 0.25vw  + 2.55vw ); }
+    100%{ opacity: 1;  top: 0%;          left: calc( 0.25vw  + 2.55vw ); }
+}
+@keyframes campusesAnmy2{
+    0%{ opacity: 0;  top: 0%;      left: calc( 0.25vw  + 2.55vw );  }
+    100%{ opacity: 1;  top: -150%;     left: calc( 0.4vw  + 2.55vw );  }
+}
+@keyframes campusesAnmy3{
+    0%{ opacity: 0;  top: 0%;          left: calc( 0.25vw  + 2.55vw );  } 
+    100% { opacity: 1; top: -125%;     left: calc( 15vw  + 2.55vw );  }
+}
+@keyframes campusesAnmy4{
+    0%{ opacity: 0;  top: 0%;      left: calc( 0.25vw  + 2.55vw );       } 
+    100% { opacity: 1; top: 0;     left: calc( 20vw  + 2.55vw );  }
+}
+@keyframes campusesAnmy5{
+    0%{ opacity: 0;  top: 0%;      left: calc( 0.25vw  + 2.55vw );       } 
+    100% { opacity: 1; top: 125%;  left: calc( 15vw  + 2.55vw );       }
+}
+@keyframes campusesAnmy6{
+    0%{ opacity: 0;  top: 0%;      left: calc( 0.25vw  + 2.55vw );       } 
+    100% { opacity: 1; top: 150%;  left: calc( -0.5vw  + 2.55vw );     }
+}
+@keyframes campusesAnmy7{
+    0%{ opacity: 0;  top: 0%;      left: calc( 0.25vw  + 2.55vw );  } 
+    100% { opacity: 1; top: 125%;  left: calc( 14.4vw  + 2.55vw );  }
+}
+@keyframes campusesAnmy8{
+    0%{ opacity: 0;  top: 0%;      left: calc( 0.25vw  + 2.55vw );  } 
+    100% { opacity: 1; top: 0%;    left: calc( -20vw  + 2.55vw ); }
+}
+@keyframes campusesAnmy9{
+    0%{ opacity: 0;  top: 0%;      left: calc( 0.25vw  + 2.55vw );  } 
+    100% { opacity: 1; top: -125%; left: calc( -14.4vw  + 2.55vw ); } 
+}
+
+@keyframes campusesGridAnmy{
+    // 0%{ grid-template-areas: '. dep1 .' '. . .' '. . .'; }
+    // 100%{ grid-template-areas: 'dep2 dep1 dep3' 'dep4 dep5 dep6' 'dep7 dep8 dep9'; }
+    0%{ opacity: 0;  font-size: 0vw;  width: 0%; }
+    100%{ opacity: 1;  font-size: 2.5vw;  width: 65%; }
+}
+
+@keyframes chatHours1{
+    0%{ opacity: 0;  margin-top: -5vh; }
+    100%{ opacity: 1;  margin-top: 0vh; }
+}
+
+@keyframes chatHours2{    
+    0%{ opacity: 1;  margin-top: 0vh; }
+    100%{ opacity: 0;  margin-top: -5vh; }
+}
+
+@keyframes smallNav1{
+    0%{ opacity: 0;  left: -110%; }
+    100%{ opacity: 1;  left: 0%; }
+}
+
+@keyframes smallNav2{
+    0%{ opacity: 1;  left: 0%; }
+    100%{ opacity: 0;  left: -110%; }    
+}

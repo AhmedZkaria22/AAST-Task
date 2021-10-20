@@ -1,0 +1,26 @@
+.AppCarousel{
+    height: 40vw;
+    #carouselControls{
+        height: 100%;
+        .carousel-inner{
+            height: 100%;
+            .carousel-item{
+                height: 100%;
+                img{
+                    height: 100%;
+                    object-fit: fill;
+                }
+            }
+        }
+        .carousel-control-prev{margin-left: 2vw;} 
+        .carousel-control-next{margin-right: 2vw;}
+        .carousel-control-prev, .carousel-control-next{
+            height: fit-content;
+            top: 20vw;
+            justify-content: flex-start;
+            width: max-content;            
+            // .carousel-control-prev-icon, .carousel-control-next-icon{}
+            // .visually-hidden{}
+        }
+    }
+}

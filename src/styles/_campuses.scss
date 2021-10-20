@@ -1,0 +1,71 @@
+// $linkColor: white;
+// $linkBack: #F27582;
+
+$linkColor: #53a7db;
+$linkBack: transparent;
+
+#Campuses{
+    // margin-top: 10vh;
+    p{   
+        position: relative;     margin: 0;  
+        padding: 0.75vw 1vw;
+        font-size: calc(1.0rem + 0.5vw);
+        color: white;
+        text-align: center;
+        width: fit-content;
+        margin: 23vh auto 30vh;
+        a{ 
+            text-decoration: none;  background-color: $linkBack; 
+            position: absolute;   
+            font-size: calc(0.5rem + 1.0vw);
+            // font-size: calc(1.0rem + 0.5vw);  
+            text-align: center;
+            border-radius: 0.5rem;   color: $linkColor; 
+            padding: 0.75vw 1vw;
+            width: max-content;
+            bottom: auto;     right: auto;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            animation-duration: 0.85s;
+            opacity: 0;
+            // &:not(:nth-of-type(1)){ animation-delay: 0.85s; opacity: 0;  display: none; } 
+            &:nth-of-type(1){ top: 0%;      left: calc( 0.25vw  + 2.55vw ); }
+            &:nth-of-type(2){ top: -150%;   left: calc( 0.4vw  + 2.55vw) ;  }
+            &:nth-of-type(3){ top: -125%;   left: calc( 15vw  + 2.55vw ); }
+            &:nth-of-type(4){ top: 0;       left: calc( 20vw  + 2.55vw ); }
+            &:nth-of-type(5){ top: 125%;    left: calc( 15vw  + 2.55vw ); }
+            &:nth-of-type(6){ top: 150%;    left: calc( -0.5vw  + 2.55vw ); }
+            &:nth-of-type(7){ top: 125%;    left: calc( -14.4vw  + 2.55vw ); }
+            &:nth-of-type(8){ top: 0%;      left: calc( -20vw  + 2.55vw ); }
+            &:nth-of-type(9){ top: -125%;   left: calc( -14.4vw  + 2.55vw ); }
+        }
+    }   
+    div{
+        display: grid;            
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 'dep2 dep1 dep3' 'dep4 dep5 dep6' 'dep7 dep8 dep9';
+        grid-gap: 2.5vw 0vw;
+        justify-items: center;
+        align-items: center;
+        margin: 4vh auto 6vh;
+        a{
+            text-decoration: none;  background-color: $linkBack;
+            text-align: center;
+            border-radius: 0.5rem;   color: $linkColor; 
+            padding: 0.75vw 1vw;
+            font-size: 2.5vw;
+            width: 65%;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            &:not(:first-of-type){ animation: 0.85s ease-in-out; opacity: 0;}
+            &:nth-of-type(1){ grid-area: dep1; }
+            &:nth-of-type(2){ grid-area: dep2; }
+            &:nth-of-type(3){ grid-area: dep3; }
+            &:nth-of-type(4){ grid-area: dep4; }
+            &:nth-of-type(5){ grid-area: dep5; }
+            &:nth-of-type(6){ grid-area: dep6; }
+            &:nth-of-type(7){ grid-area: dep7; }
+            &:nth-of-type(8){ grid-area: dep8; }
+            &:nth-of-type(9){ grid-area: dep9; }
+        }
+    }
+}

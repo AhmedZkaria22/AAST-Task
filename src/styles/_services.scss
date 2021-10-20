@@ -1,0 +1,43 @@
+// $linkColor: #2A8FBE;
+// $linkHoverColor: #0559AB;
+// $fontColor: #6E8898;
+// $headColor:  #333;
+// $downLinkColor: white;
+// $downLinkBackColor: #F2AF00;
+
+$linkColor: #53a7db;
+$linkHoverColor: #294B75;
+$fontColor: #252b2e;
+$headColor:  #e75b24e6;
+// $downLinkColor: white;
+// $downLinkBackColor: #F2AF00;
+
+#services{    
+    // margin-top: 12vh;
+    .row{
+        justify-content: space-around;
+        .services__item{
+            margin-bottom: 3.5vh;
+            position: relative;
+            img{
+                width: 4rem;
+                height: 4rem;
+            }
+            p,a{ 
+                font-weight: 400;  padding-inline: 5%; }
+            p{
+                &:nth-of-type(1){ font-size: calc(0.9rem + .3vw); font-weight: 500;   color: $headColor; }
+                &:nth-of-type(2){  color: $fontColor;  margin-bottom: 10vh; }
+            }
+            a{
+                display: block;     text-decoration: none;  
+                &:nth-of-type(1){
+                    color: $linkColor;
+                    font-size: calc(0.75rem + .25vw);
+                    &:hover{ color: $linkHoverColor; }    
+                }
+                // &:nth-of-type(2), &.cardButton{ color: $downLinkColor!important;  background-color: $downLinkBackColor; }
+            }
+        }    
+    }
+}

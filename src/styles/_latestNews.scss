@@ -1,0 +1,26 @@
+#latestNews{
+    .latestNews__container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 5%;
+        .latestNews__container__item{
+            position: relative;
+            display: flex;
+            flex-direction: column;            
+            img{
+                height: 27vh;
+                margin-bottom: 0.5rem;
+                border-radius: 0.5rem 0.5rem 0rem 0rem;
+            }
+            p{
+                margin: 0;
+                &:first-of-type{ font-size: calc(0.85rem + .25vw);  font-weight: 500; margin-bottom: 1.5vh;}
+                &:last-of-type{ margin-bottom: 4vw; color: #606060; }
+            }
+            a{
+                display: block;     margin: auto;  text-align: center;                 
+                text-decoration: none;      
+            }
+        }
+    }
+}

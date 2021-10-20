@@ -1,0 +1,95 @@
+$backColor: #125580;
+$backInput: #e9ecefcc;
+$fontColor: white;
+
+header{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    input, label, p, svg{ font-size: calc(0.8rem + 0.2vw); }
+    button{ font-size: calc(0.7rem + 0.3vw); }
+    .header__date-lang{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $backColor;
+        padding-inline: 2%;
+        &>p{
+            margin: 0;            
+            color: #F3F6FD;
+            animation: headerAnmy1 1.2s ease-in-out;
+        }
+        .header__search{
+            display: flex;
+            flex-direction: column;
+            .header__search__form{
+                display: flex;   padding-block: 0.35rem;             
+                input, button{ height: 100%;  border: none; }
+                &>input{  height: inherit;
+                    background-color: $backInput;    margin-right: 0.5rem;
+                    border-radius: 0.35rem;
+                    padding: 0.35rem 0.5rem;
+                    &:hover, &:focus{ border: none;  outline: none;  box-shadow: none; }
+                }
+                &>button{
+                    width: fit-content;
+                    padding: 0;
+                    height: inherit;
+                    background-color: transparent;
+                    svg{ color: $fontColor; }
+                }    
+            }
+            .header__form__checks-group{
+                padding-right: 19%;
+                // display: flex;
+                justify-content: space-between;
+                align-items: center;
+                display: none;
+                animation: headerAnmy2 0.35s ease-in-out;
+                .header__form__checks-group__item{
+                    display: flex;
+                    align-items: center;   
+                    padding-block: 0.35rem;
+                    input{ width: 1rem; }
+                    label{ 
+                        // color: #F3F6FD;
+                        color: $backInput;
+                        // font-size: 1rem;  line-height: 1rem; 
+                    }    
+                }
+            }
+        }
+        &>button{
+            background-color: transparent;
+            color: $fontColor;
+            width: fit-content;
+            height: 1.8rem;
+            padding: 0;
+            border: none;
+        }
+    }
+    .aast-img{
+        height: auto;
+        width: 65vw;
+        margin-right: 17vw;
+        margin-left: 18vw;
+        margin-block: 2vw;
+    }
+    &>div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &>*{ display: block; }
+        img{
+            height: auto;
+            width: 65vw;
+            margin-block: 2vw;
+        }
+        svg{
+            cursor: pointer;
+            font-size: 1rem;
+        }
+    }
+}

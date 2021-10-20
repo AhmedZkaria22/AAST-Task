@@ -1,0 +1,129 @@
+#chat{
+    &>svg{
+        position: fixed;
+        top: 82vh;
+        right: 1vw;
+        padding: 0rem;        
+        font-size: 1.5rem;
+        // color: #252b2e;
+        color: #53a7dbc7;
+        background-color: transparent;
+        cursor: pointer;
+        z-index: 9;
+    }
+    .chat-main{
+        position: fixed;
+        top: 45vh;
+        right: calc( 1.8rem + 1vw );
+        padding: 0rem;        
+        // color: #333;
+        background-color: #ffffff;
+        // border: 3px solid #E75B24;
+        border: 3px solid #53a7dbc7;
+        border-radius: 0.5rem;
+        height: 55vh;
+        width: 27vw;
+        transition: all 0.5s ease-in-out 0s;    
+        *{ font-size: calc(0.7rem + .2vw)!important; } 
+        p, select, input, textarea{ color: #252b2e;  font-weight: 500; }
+        p{ margin: 0; }
+        select, input, textarea{ width: 100%; }
+        .chat-main__head{
+            //background-color: #E75B24;
+            background-color: #53a7dbc7;            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0.35rem;
+            position: relative;
+            &>*{ color: white!important; font-weight: 700;}
+            svg{ cursor: pointer; 
+                position: absolute;
+                right: 8%;
+            }
+        }
+        .chat-main__form{ 
+            transition: all 0.5s ease-in-out 0s;
+            overflow-y: scroll;
+            height: calc(100% - 2rem);
+            padding: 2vh 2vw 0vh;      
+            &>button{ 
+                padding-left: 0;
+                //color: #E75B24;
+                color: #53a7dbc7;  
+                border: none; 
+                background-color: transparent;  margin: 1rem 0rem 0.75rem;
+                font-weight: 800;
+                text-transform: uppercase;
+                text-shadow: 1px 1px 1px #00000096;
+                letter-spacing: 0.3rem;
+                font-size: calc(0.8rem + .3vw) !important;
+            }
+
+            .chat-main__oper-hours{
+                display: none;
+                &>p{ 
+                    font-weight: 600;
+                    margin-top: 3vh; 
+                    color: #294B75;
+                    font-size: calc(0.75rem + .3vw) !important;
+                }
+                select{         
+                    font-size: 1rem;       
+                    border: 2px solid #294B75;    border-radius: 0.25rem;
+                    margin-bottom: 0.25rem;
+                    &:hover, &:focus{ border: 2px solid #294B75;  box-shadow: none;  outline: none; }
+                    option{ font-size: 1rem; }
+                }
+                .chat-main__oper-hours__details{
+                    p{
+                        font-size: 1rem;  font-weight: 500;
+                        &.oper-hours-light{ font-size: 0.85rem;  font-weight: 500; padding-left: 1rem;  }
+                    }
+                }
+            }
+
+            .chat-main__sign__google{   margin-top: 2vh;
+                span{
+                    color: #294B75;
+                    font-size: calc(0.75rem + .3vw) !important;
+                    font-weight: 600;
+                    &:last-of-type{ display: block;  width: 100%;  text-align: center; 
+                        //color: #E75B24;
+                        color: #53a7dbc7;  
+                        background-color: transparent;  
+                        font-weight: 800;
+                        text-transform: uppercase;
+                        text-shadow: 1px 1px 1px #00000096;
+                        letter-spacing: 0.3rem;
+                        font-size: calc(0.8rem + .3vw) !important;
+                    }
+                }
+                button{
+                    background-color: transparent;
+                    border: none;
+                    svg{ font-size: 1rem;  color: #333; }
+                }
+            }
+
+            form{
+                label{ 
+                    font-weight: 600;
+                    margin-top: 3vh;
+                    color: #294B75;
+                    font-size: calc(0.75rem + .3vw) !important;
+                }
+                input, textarea{ border: none;  background-color: #EBEEFA; border-radius: 0.5rem 0.5rem 0rem 0rem; 
+                    padding: 0.35rem 0.5rem;
+                    &:hover, &:focus{ border: none;  box-shadow: none;  outline: none; }
+                }
+                div{ color: #ff1717; display: none; }
+                p.successSubmit{ color: #008000; }
+                button{ //background-color: #E75B24; 
+                    background-color: #53a7dbc7;  color: white; width: 100%; border: none;   padding-block: 0.35rem; 
+                    border-radius: 0.5rem 0.5rem 0rem 0rem;     margin-top: 0.5rem;
+                }
+            }
+        }
+    }
+}

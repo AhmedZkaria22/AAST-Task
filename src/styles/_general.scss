@@ -1,0 +1,103 @@
+*:not(script){
+    box-sizing: border-box;
+    &:not(img){
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+html{
+    scroll-behavior: smooth;
+    ::-webkit-scrollbar-button{ color: #252b2e;  background-color: #EBEEFA; }
+    ::-webkit-scrollbar { width: 10px; }
+    ::-webkit-scrollbar-thumb { background-color: #252b2e;  color: #EBEEFA;  border-radius: 10px; }      
+
+}
+
+.cardButton{
+    border: none;   
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    width: 50%;  left: 25%;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-block: 1.5vh;
+    color: white !important;
+    background-color: #53a7dbc7;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-block: 1.5vh;
+    // box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    &:hover{ color: white; }
+}
+
+.btnTop{
+    position: fixed;
+    top: 72vh;
+    right: 1vw;
+    padding: 0.15rem 0.5rem;
+    border-radius: 0.35rem;
+    border: none;
+    background-color: #252b2e;
+    // color: #EBEEFA;
+    color: #53a7dbc7;
+}
+
+#popup{
+    position: fixed;
+    top: 0;     left: 0;
+    background-color: #33333385;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9;
+    img{
+        position: fixed;
+        top: 7.5vh;
+        left: 5vw;
+        width: 90vw;
+        height: 85vh;
+        object-fit: fill;
+    }
+
+    button{
+        color: #d2d2d2;     
+        background-color: cornflowerblue;
+        padding: 0.35rem 0.75rem;
+        position: fixed;
+        top: 10vh;
+        left: 6vw;
+        border: none;
+    }
+}
+
+h3{ 
+    text-align: center; 
+    // color: #E75B24;
+    color: #294B75; 
+    // margin-bottom: 5vh; 
+    text-transform: uppercase;
+    // text-shadow: 1.5px 1.5px 3px #00000096;
+    // width: fit-content;      
+    margin: 0vh auto 5vh;
+    letter-spacing: 0.3rem;
+    // border-bottom: 2px solid #606060;
+    // display: block;
+    // clear: both;
+}
+
+p{ font-size: calc(0.75rem + .25vw);  color: #252b2e; }
+
+.AppCarousel, #Campuses, #services, #latestNews,  #upEvents,  #Deanery{
+    width: 90vw;
+    // margin: 5vh auto 7.5vh;
+    // margin-inline: auto;
+    margin: 12vh auto 0vh;
+    padding-bottom: 12vh;
+    // border-bottom: 0.3rem solid #E75B24;
+    overflow: auto;
+    clear: both;
+}
+
+.AppCarousel{ padding-bottom: 0!important; }
+
+#Deanery{ margin-bottom: 0!important; padding-bottom: 0!important;}
