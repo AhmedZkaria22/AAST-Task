@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/AAST-Task/static/css/main.70b7ca0e.chunk.css",
+    "main.js": "/AAST-Task/static/js/main.81ec3725.chunk.js",
+    "main.js.map": "/AAST-Task/static/js/main.81ec3725.chunk.js.map",
+    "runtime-main.js": "/AAST-Task/static/js/runtime-main.2e03d7a7.js",
+    "runtime-main.js.map": "/AAST-Task/static/js/runtime-main.2e03d7a7.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/AAST-Task/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.a0559cb2.chunk.js": "/AAST-Task/static/js/2.a0559cb2.chunk.js",
+    "static/js/2.a0559cb2.chunk.js.map": "/AAST-Task/static/js/2.a0559cb2.chunk.js.map",
+    "static/js/3.251e3b65.chunk.js": "/AAST-Task/static/js/3.251e3b65.chunk.js",
+    "static/js/3.251e3b65.chunk.js.map": "/AAST-Task/static/js/3.251e3b65.chunk.js.map",
+    "index.html": "/AAST-Task/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/AAST-Task/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.70b7ca0e.chunk.css.map": "/AAST-Task/static/css/main.70b7ca0e.chunk.css.map",
+    "static/js/2.a0559cb2.chunk.js.LICENSE.txt": "/AAST-Task/static/js/2.a0559cb2.chunk.js.LICENSE.txt",
+    "static/media/01.46bad109.jpg": "/AAST-Task/static/media/01.46bad109.jpg",
+    "static/media/02.dac77431.jpg": "/AAST-Task/static/media/02.dac77431.jpg",
+    "static/media/03.fd356ce4.jpg": "/AAST-Task/static/media/03.fd356ce4.jpg",
+    "static/media/04.ad6ae2ab.jpg": "/AAST-Task/static/media/04.ad6ae2ab.jpg",
+    "static/media/AsstCatalog.f804aa5c.pdf": "/AAST-Task/static/media/AsstCatalog.f804aa5c.pdf",
+    "static/media/admission-header.3627c386.jpg": "/AAST-Task/static/media/admission-header.3627c386.jpg",
+    "static/media/App.css": "/AAST-Task/static/media/admission.190ee5af.jpg",
+    "static/media/results.08158226.png": "/AAST-Task/static/media/results.08158226.png",
+    "static/media/retreiveOnePIC1.74f12c40.jfif": "/AAST-Task/static/media/retreiveOnePIC1.74f12c40.jfif",
+    "static/media/retreiveOnePIC2.804a4650.jfif": "/AAST-Task/static/media/retreiveOnePIC2.804a4650.jfif",
+    "static/media/testing-center.9ac792ae.jpg": "/AAST-Task/static/media/testing-center.9ac792ae.jpg",
+    "static/media/world.f51b953e.png": "/AAST-Task/static/media/world.f51b953e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e03d7a7.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.a0559cb2.chunk.js",
+    "static/css/main.70b7ca0e.chunk.css",
+    "static/js/main.81ec3725.chunk.js"
+  ]
+}
