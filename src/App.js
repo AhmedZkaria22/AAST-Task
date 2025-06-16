@@ -23,12 +23,16 @@ function App() {
 
   const handelDelay1 = () => {        
       const links = document.querySelectorAll('#Campuses p a');
-      links[0].style.opacity = '1';
-      links[0].style.animationName = 'campusesAnmy1' ;
+      if(links[0]){
+        links[0].style.opacity = '1';
+        links[0].style.animationName = 'campusesAnmy1' ;
+      }
       for(let i = 1; i<links.length; i++){
           setTimeout(() => {
+            if(links[i]){
               links[i].style.opacity = '1';
               links[i].style.animationName = `campusesAnmy${i+1}` ;                    
+            }
           }, 400);
       } 
   }
@@ -36,8 +40,10 @@ function App() {
       const smLinks = document.querySelectorAll('#Campuses div a');
       for(let i = 1; i<smLinks.length; i++){
           setTimeout(() => {
+            if(smLinks[i]){
               smLinks[i].style.opacity = '1';
               smLinks[i].style.animationName = `campusesGridAnmy` ;
+            }
           }, 200);
       }    
   }
